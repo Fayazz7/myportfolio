@@ -17,7 +17,7 @@ body {
  .homepic{
   height: 500px;
   width: 60%;
-  border-radius: 37% 63% 28% 72% / 61% 39% 61% 39% ;
+  border-radius: 66% 34% 49% 51% / 43% 45% 55% 57% ;
   object-fit: cover;
   margin-top: 15%;
 }
@@ -55,4 +55,86 @@ body {
 
 .hero .social-links a:hover {
   color: #0563bb;
+}
+
+.section-title{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title{
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+@media screen and (max-width:320px) {
+  .section-title{
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #45505b;
+  }
+  
+  
+}
+
+.about img{
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width:800px){
+  .about img{
+    display: none;
+  }
+}
+.about .content h3 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #728394;
+}
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width:800px){
+  .about .content ul li:last-child{
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+  .col-lg-6{
+    height: 176;
+  }
+}
+
+
+
+.about .content ul strong {
+  margin-right: 10px;
+}
+
+.about .content ul i {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #0563bb;
+  line-height: 0;
+}
+
+.about .content p:last-child {
+  margin-bottom: 0;
+  color: black;
 }
